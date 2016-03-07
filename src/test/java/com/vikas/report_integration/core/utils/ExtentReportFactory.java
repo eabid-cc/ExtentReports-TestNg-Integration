@@ -17,7 +17,7 @@ public class ExtentReportFactory {
 		if (reporter == null) {
 			// you can get the file name and other parameters here from a
 			// config file or global variables
-			reporter = new ExtentReports("ComplexReport.html", true, DisplayOrder.NEWEST_FIRST);
+			reporter = new ExtentReports("ExtentReport.html", true, DisplayOrder.NEWEST_FIRST);
 		}
 		return reporter;
 	}
